@@ -18,7 +18,7 @@ export function onServer(callback, defaultValue, valueIdentifier) {
         const initScript = <div dangerouslySetInnerHTML={{__html: scriptContent}}></div>
         return [JSON.parse(jsonValue), initScript]
     }
-    if(anyWindow.serverData) {
+    if (anyWindow.serverData) {
         const value = anyWindow.serverData[valueIdentifier]
         anyWindow.serverData[valueIdentifier] = undefined
         if (value) {

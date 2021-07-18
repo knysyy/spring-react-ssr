@@ -6,9 +6,9 @@ const anyWindow = window;
 
 export const initialize = (Root) => {
     anyWindow.renderApp = () => {
-        ReactDOM.hydrate(<Root />, document.getElementById('root'));
+        ReactDOM.hydrate(<Root/>, document.getElementById('root'));
     }
     anyWindow.renderAppOnServer = () => {
-        return ReactDOMServer.renderToString(<Root />);
+        return ReactDOMServer.renderToString(<Root/>);
     }
 }
