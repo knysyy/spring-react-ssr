@@ -16,8 +16,6 @@ dependencies {
     implementation "org.graalvm.sdk:graal-sdk:21.1.0"
     implementation "org.graalvm.js:js:21.1.0"
     implementation "org.graalvm.js:js-scriptengine:21.1.0"
-    implementation "org.graalvm.compiler:compiler:21.1.0"
-    implementation "org.graalvm.truffle:truffle-api"
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
