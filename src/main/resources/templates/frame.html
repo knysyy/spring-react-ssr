@@ -7,11 +7,5 @@
 </head>
 <body>
 <div th:remove="tag" th:utext="${body}"></div>
-<script type="module">
-    function renderWhenAvailable() {
-        window.renderApp ? window.renderApp() : window.setTimeout(renderWhenAvailable, 100)
-    }
-    renderWhenAvailable()
-</script>
 </body>
 </html>
